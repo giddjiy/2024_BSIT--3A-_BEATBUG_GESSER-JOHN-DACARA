@@ -1,47 +1,119 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+ <!DOCTYPE html>
+ <html lang=""en">
+ <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MY PORTFOLIO</title>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap">
-    <link rel="stylesheet" href="style.css">
-    
-</head>
-<body>
-    <header class="header">
-        <a href="#" class="logo">GJ Dacara</a>
+    <title>My Portfolio</title>
+    <link rel= "stylesheet" href= "https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" >
+    <link rel="stylesheet" href="https:///unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="stylesheet" href="style.css"><link>
+ </head>
 
-        <nav class="navbar">
-            <a href="#" class="active">Home</a>
-            <a href="#">About</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Contact</a>
-        </nav>
-    </header>
-    
-    <section class="home">
-        <div class="home-image">
-
+ <body>
+    <nav id="sidebar">
+        <div class="person">
+            <img src="img.png"alt="">
+            <h4 class="heading-3">Gesser John Dacara</h4>
         </div>
-
-        <div class="home-content">
-            <h1> Hi, I'm Gesser John Dacara</h1>
-            <h3>BSIT 3A</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                Non eveniet qui dicta delectus dignissimos nihil, repudiandae 
-                officia alias quia fuga, suscipit, sit id magni quod architecto
-                adipisci beatae! Velit, necessitatibus.</p>
-
-            <div class="home-sci">
-                <a href="#"><i class='bx bxl-facebook-circle'></i></a>
-                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
-                <a href="#"><i class='bx bxl-twitter'></i></a>
-                <a href="#"><i class='bx bxl-linkedin'></i></a>
+        <ul>
+            <li><a href="#home" class="is-active">Home</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div>
+                <span></span>
+                <span></span>
             </div>
         </div>
-    </section>
-</body>
-</html>
+    </nav>
+    <main id="content-wrapper">
+        <section id="home" class="full-height">
+            <div class="container">
+                <h1 class="heading-1">Bachelor of Science <br>
+                    <span class="text-brand">Information Technology</span> </h1>
+                <p>As an Information Technology student, I'm fascinated by the power of technology to transform our lives.
+                     From learning about computer systems to exploring coding languages, I'm passionate about understanding 
+                     how technology works and how it can be applied to solve real-world problems. I thrive on challenges and 
+                     am eager to contribute to the exciting advancements shaping our digital future.</p>
+                <div class="cta">
+                    <a href="#" class="btn">Explore My Work</a>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/luluxury443" target="_blank"><i class="lab la-facebook"></i></i></a>
+                        <a href="https://www.instagram.com/gidjiyyy/?hl=en" target="_blank"><i class="lab la-instagram"></i></a>
+                        <a href="https://twitter.com/gidjiyyy" target="_blank"><i class="lab la-twitter"></i></a>
+                        <a href="https://github.com/giddjiy/2024_BSIT--3A-_BEATBUG_GESSER-JOHN-DACARA"target="_blank"><i class="lab la-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Services Section -->
+        <section id="resume" class="full-height">
+            <div class="container">
+                <div class="intro">
+                    <br>
+                    <h2 class ="heading-2">Dacara, Gesser John V.</h2>
+                    <p>Zone 1-A, San Roque Polangui, Albay <br>
+                       0995-079-6718 <br>
+                       dacaragesserjohn@gmail.com <br>
+                    -------------------------------------------------------- <br>
+                    <h6 class="heading-3">OBJECTIVE</h6>
+                    <p>To be able to find an internship wherein I can fully utilize my skills and knowledge, and<br>
+                        further enhance them to contribute to my development as a person; and to be able <br>
+                        to be a part of a team whose development I can contribute to as a member, in preperation <br>
+                        to my future career.</p>
+                    <h6 class="heading-3">PERSONAL DATA:</h6>
+                    <p> Nickname: John <br>
+                        Age: 21 <br>
+                        Birthday: September 07, 2002 <br>
+                        Civil Status: Single <br>
+                        Permanent Address: San Roque Polangui, Albay
+                    </p>
+                    -------------------------------------------------------- <br>
+                    <h6 class="heading-3">EDUCATIONAL BACKGROUND:</h6>
+                    <section class="section">
+                        <ul class="education">
+                            <li>
+                                <span class="level">College</span> <br>
+                                <span class="school">Bicol University - Polangui</span> <br>
+                                <span class="school">Polangui, Albay </span> <br>
+                                <span class="school">(2021-Present) </span>
+                                
+                            </li>
+                            <li>
+                                <span class="level">Secondary</span> <br>
+                                <span class="school">Polangui General Comprehensive High School</span> <br>
+                                <span class="school">Polangui, Albay </span> <br>
+                                <span class="school">(2018-2020) </span> <br><br>
+                                <span class="school">San Agustin Integrated School</span> <br>
+                                <span class="school">San Agustin Libon, Albay </span> <br>
+                                <span class="school">(2014-2018) </span> <br>
+                            </li>
+                        
+                        <li>
+                            <span class="level">Primary</span> <br>
+                            <span class="school">Salvacion Elementary School</span> <br>
+                            <span class="school"> Salvacion Polangui, Albay </span> <br>
+                            <span class="school">(2008-2014) </span>
+                            
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Portfolio -->
+        <section id="portfolio" class="full-height">
+    </main>
+    
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="app.js"></script>
+
+ </body>
+ </html>
